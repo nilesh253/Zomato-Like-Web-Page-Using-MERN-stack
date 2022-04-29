@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 app.use('/', apiRouter);
 
 
-mongoose.connect('mongodb+srv://m001-student:m001-mongodb-basics@sandbox.uivdb.mongodb.net/zomato?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://...@sandbox.uivdb.mongodb.net/zomato?retryWrites=true&w=majority',{
         useNewUrlParser: true,
         useUnifiedTopology: true
     }
